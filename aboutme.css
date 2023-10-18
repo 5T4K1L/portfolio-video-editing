@@ -1,0 +1,59 @@
+body {
+  position: relative;
+}
+
+#aboutme {
+  background-color: rgb(247, 247, 247);
+  margin-top: -1.25em;
+  height: 100vh;
+}
+
+h1 {
+  color: black;
+}
+
+.aboutme-container {
+  text-align: center;
+}
+
+.aboutme-container h1 {
+  width: 40em;
+  padding: 5em;
+  line-height: 2em;
+  position: relative;
+  left: 27%;
+  /* top: -80%; */
+}
+
+.achievements {
+    position: absolute;
+    left: 35%;
+    bottom: 12%;
+}
+
+.achievements p {
+  margin: 0;
+  font-size: 20px;
+}
+
+.achievements li {
+    padding: 20px;
+    margin: 0 10px 0 0;
+    background-color: rgb(252, 231, 231);
+}
+
+.top ul {
+  display: flex;
+  flex-direction: row;
+  padding: 0;
+  margin: 2em;
+  list-style: none;
+}
+
+.bottom ul {
+  display: flex;
+  flex-direction: row;
+  padding: 0;
+  margin: 0;
+  list-style: none;
+}
