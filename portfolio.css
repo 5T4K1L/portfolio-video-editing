@@ -1,12 +1,12 @@
 #portfolio {
-    background-color: #ebebeb;
-    /* background-color: black; */
-    height: 100vh;
+  background-color: #f8f8f8;
+  /* background-color: black; */
+  height: 100vh;
 }
 
 .portfolio h1 {
-    position: absolute;
-    color: black;
-    left: 50%;
-    font-size: 2em;
+  position: absolute;
+  color: black;
+  left: 50%;
+  font-size: 2em;
 }

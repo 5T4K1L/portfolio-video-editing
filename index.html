@@ -7,6 +7,14 @@
     <link rel="stylesheet" href="/style.css" />
     <link rel="stylesheet" href="/aboutme.css" />
     <link rel="stylesheet" href="/portfolio.css" />
+    <link rel="stylesheet" href="/contacts.css" />
+    <script src="/script.js"></script>
+    <script src="https://cdn.emailjs.com/dist/email.min.js"></script>
+    <script>
+      (function(){
+        emailjs.init('gjs8qr9zPBTPIar3W');
+    })();
+    </script>
   </head>
 
   <body>
@@ -45,8 +53,8 @@
           <a href="#portfolio">
             <li>Portfolio</li>
           </a>
-          <a href="">
-            <li>Contacts</li>
+          <a href="#contacts">
+            <li>Contact</li>
           </a>
         </div>
       </div>
@@ -70,7 +78,7 @@
               </ul>
             </div>
             <div class="bottom">
-              <ul>
+              <ul>  
                 <li><p>One Commerical Type Video Edited</p></li>
                 <li><p>Two News Reporting Type Video Edited</p></li>
               </ul>
@@ -84,6 +92,29 @@
       <div class="portfolio">
         <h1>MY PORTFOLIO</h1>
       </div>
+
+      <div class="videos-container">
+        
+      </div>
+      </section>
+
+    <section id="contacts">
+      <div class="contacts">
+        <div class="side-texts">
+          <h1>Want to Collaborate?</h1>
+      </div>
+
+      <div id="contactForm" class="contact-form">
+        <form id="emailForm">
+            <ul>
+                <li><input id="fromName" type="text" name="from_name" placeholder="Name" /></li>
+                <li><input id="email" type="text" name="reply_to" placeholder="Email" /></li>
+                <li><input id="message" type="text" name="message" placeholder="Message" /></li>
+                <li><button type="submit">SUBMIT</button></li>
+            </ul>
+        </form>
+    </div>
+    
     </section>
   </body>
 </html>
