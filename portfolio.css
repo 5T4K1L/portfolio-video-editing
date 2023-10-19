@@ -1,12 +1,74 @@
-#portfolio {
-  background-color: #f8f8f8;
-  /* background-color: black; */
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script&family=Gugi&family=IM+Fell+Double+Pica+SC&family=Itim&family=JetBrains+Mono:wght@500&family=Josefin+Sans&family=Jura:wght@300&family=Pixelify+Sans&family=Press+Start+2P&family=Tilt+Neon&display=swap');
+
+* {
+  font-family: 'Tilt Neon', sans-serif;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  overflow-x: hidden;
+}
+
+body {
+  background-color: white;
   height: 100vh;
 }
 
-.portfolio h1 {
+#portfolio-container {
+  background-color: rgb(248, 248, 248);
+  height: 100vh;
+  position: relative;
+}
+
+.my-portfolio h1 {
   position: absolute;
-  color: black;
-  left: 50%;
-  font-size: 2em;
+  text-align: center;
+  width: 100%;
+  transform: translateY(50%);
+}
+
+.portfolio-animation {
+  height: 100vh;
+  background: #050C16;
+  position: relative;
+  left: -100%;
+
+  transition: 0.5s all ease-in-out;
+}
+
+.video-categ {
+  position: absolute;
+  width: 100%;
+  top: 70px;
+  transform: translateX(10%);
+  color: #fd5959;
+}
+
+.video-section {
+  position: absolute;
+  top: 10%;
+  margin: 2em 1em;
+  text-align: center;
+  width: 100%;
+}
+
+.video-section iframe {
+  margin: 0 2em 2em 0;
+  border: 2px solid black;
+  padding: 1em;
+  border-radius: 2em;
+}
+
+.portfolio-animation p {
+  color: white;
+  font-size: 4em;
+  display: inline-block;
+  margin-top: 4.5em;
+  margin-right: 15px;
+  opacity: 0;
+
+  transition: 0.3s all;
+}
+
+.texts {
+text-align: center;
 }
