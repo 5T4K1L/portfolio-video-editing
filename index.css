@@ -1,0 +1,297 @@
+* {
+  font-family: "Julius Sans One", sans-serif;
+  box-sizing: border-box;
+  margin: 0;
+}
+
+body {
+  overflow-x: hidden;
+}
+
+.main-page {
+  height: 100vh;
+}
+
+.navbar {
+  background-color: black;
+  color: white;
+  height: 87px;
+  position: relative;
+}
+
+.links ul {
+  display: flex;
+  list-style-type: none;
+  justify-content: space-between;
+  text-align: center;
+}
+
+.links h1 {
+  margin: 25px 3em;
+}
+
+.links button {
+  background-color: #4e9fff;
+  border: none;
+  color: white;
+  font-size: 20px;
+  height: 42px;
+  width: 187px;
+  margin: 1em 5em;
+
+  transition: all 0.2s ease-in-out;
+}
+
+.links button:hover {
+  color: #0374ff;
+  background-color: white;
+}
+
+.background-image img {
+  width: 100%;
+  height: 87.6%;
+}
+
+#main-content {
+  position: absolute;
+  top: 25%;
+  transform: translateX(10%);
+  flex-wrap: wrap;
+}
+
+#main-content ul {
+  display: flex;
+  justify-content: center;
+  list-style: none;
+}
+
+#main-content li {
+  margin: 0 2em;
+}
+
+.bg-main-img-cover {
+  background-color: #00000048;
+  height: 412px;
+  width: 443px;
+  border-radius: 20px;
+  position: relative;
+}
+
+.main-content img {
+  align-items: center;
+  width: 100%;
+  position: absolute;
+  top: 19%;
+  left: 4%;
+  height: 334px;
+  width: 404px;
+}
+
+.sub-content {
+  color: white;
+}
+
+.sub-content h3 {
+  font-size: 20px;
+  line-height: 40px;
+}
+
+.sub-content .myNameBr {
+  color: #00f0ff;
+  font-size: 30px;
+}
+
+.sub-content h1 {
+  margin-top: 20px;
+  font-size: 40px;
+  line-height: 48px;
+}
+
+.dream,
+.cometrue {
+  color: #00f0ff;
+}
+
+.sub-content p {
+  margin-top: 1em;
+}
+
+.sub-content button {
+  height: 26px;
+  width: 224px;
+  background-color: #3f90a7;
+  border: none;
+  color: white;
+  padding: 2em;
+  margin-top: 1.5em;
+  line-height: 0;
+  font-size: 16px;
+
+  transition: all 0.2s ease-in-out;
+}
+
+.sub-content button:hover {
+  background-color: white;
+  color: #3f90a7;
+}
+
+.my-work {
+  background-color: #050c16;
+  height: 100vh;
+  position: relative;
+}
+
+.h1-my-work {
+  color: white;
+  position: absolute;
+  top: 5%;
+  text-align: center;
+  width: 100%;
+}
+
+.my-work .videos {
+  text-align: center;
+  position: absolute;
+  width: 100%;
+  top: 15%;
+  transform: translateX(1.5em);
+}
+
+.videos iframe {
+  margin: 0 3em 3em 0;
+}
+
+.aboutme {
+  position: relative;
+}
+
+.aboutme-desc {
+    display: flex;
+    justify-content: space-between;
+    margin: 0 5em;
+    gap: 8em;
+    color: white;
+
+    position: absolute;
+    top: 35%;    
+    transform: translateX(10%);
+}
+
+.aboutme img {
+  width: 100%;
+}
+
+.aboutme ul li:nth-child(1) {
+  list-style: none;
+}
+
+.name-desc .name {
+  color: #00f0ff;
+}
+
+.name-desc h3 {
+  margin-top: 1em;
+  width: 26em;
+  line-height: 2em;
+}
+
+.experiences {
+    font-size: 25px;
+    color: #FFE2C7;
+}
+
+.experiences .exp-bg {
+    background-color: black;
+    opacity: 30%;
+    height: 274px;
+    width: 449px;
+    position: relative;
+}
+
+.experiences ul {
+    position: absolute;
+    line-height: 2.5em;
+    font-size: 23px;
+    margin: 1em;
+    list-style: none;
+}
+
+.quote {
+    background-color: #050C16;
+    height: 100vh;
+    position: relative;
+    color: white;
+    margin: -4px;
+}
+
+.quote h1 {
+    font-size: 60px;
+    flex-wrap: nowrap;
+    text-align: center;
+    position: absolute;
+    width: 100%;
+    top: 27%;
+    line-height: 2em;
+}
+
+.quote span {
+    color: #FFD600;
+}
+
+.contactme {
+    height: 100vh;
+    position: relative;
+}
+
+.contactme img {
+    width: 100%;
+    height: 100vh;
+}
+
+.contactme h1 {
+    font-size: 40px;
+    margin-bottom: 2em;
+}
+
+.contactme .form-h1 {
+    position: absolute;
+
+    width: 100%;
+    text-align: center;
+    top: 20%;
+    color: white;
+}
+
+.contactme input {
+    height: 86px;
+    width: 437px;
+    background-color: rgba(0, 0, 0, 0.226);
+    border: none;
+    text-align: center;
+    color: white;
+}
+
+.contactme button {
+    background: none;
+    height: 86px;
+    width: 437px;
+    border: 2px solid black;
+    color: white;
+
+    transition: 0.3s all ease-in-out;
+}
+
+.contactme button:hover {
+    background-color: black;
+}
+
+.contactme .first-row input:nth-child(1) {
+    margin-bottom: 5em;
+    margin-right: 5em;
+}
+
+.contactme .second-row input:nth-child(1) {
+    /* margin-bottom: 2em; */
+    margin-right: 5em;
+}
+

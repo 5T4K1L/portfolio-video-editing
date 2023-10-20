@@ -4,111 +4,162 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Alfonzo Portfolio</title>
-    <link rel="stylesheet" href="/style.css" />
-    <link rel="stylesheet" href="/aboutme.css" />
-    <link rel="stylesheet" href="/portfolio.css" />
-    <link rel="stylesheet" href="/contacts.css" />
     <script src="/script.js"></script>
     <script src="https://cdn.emailjs.com/dist/email.min.js"></script>
     <script>
-      (function(){
-        emailjs.init('gjs8qr9zPBTPIar3W');
-    })();
+      (function () {
+        emailjs.init("gjs8qr9zPBTPIar3W");
+      })();
     </script>
+    <link rel="stylesheet" href="index.css" />
+    <style>
+      @import url("https://fonts.googleapis.com/css2?family=Dancing+Script&family=Gugi&family=IM+Fell+Double+Pica+SC&family=Itim&family=JetBrains+Mono:wght@500&family=Josefin+Sans&family=Julius+Sans+One&family=Jura:wght@300&family=Pixelify+Sans&family=Press+Start+2P&family=Tilt+Neon&display=swap");
+    </style>
   </head>
 
   <body>
     <div class="container">
-      
-    <section id="home">
-      <div class="background-image">
-        <img src="/images/Screenshot_20231018_021522.png" alt="" />
-        <div class="bg-image-cover"></div>
-      </div>
-    </section>
-
-      <div class="side-panels">
-        <div class="img-name-socmeds">
-          <img src="/images/Screenshot_20230906_021604.png" alt="" />
-          <p>Alfonzo Akil</p>
-          <div class="socmeds">
-            <a href="https://www.facebook.com/profile.php?id=100084295123684"
-              ><img src="/images/facebook(1).svg" alt="" />
-            </a>
-            <a
-              href="https://www.instagram.com/alfonzoakil/?fbclid=IwAR16TJUF2NRutx3vTnpIrj38lT0D7cstUSKDGWVSSNbXPYGQ7zdgUsDH5V8"
-            >
-              <img src="/images/instagram.svg" alt=""
-            /></a>
-          </div>
-        </div>
-
-        <div class="links">
-          <a href="#home">
-            <li>Home</li>
-          </a>
-          <a href="#aboutme">
-            <li>About Me</li>
-          </a>
-          <a href="">
-            <a href="/images/alfonzo-resume.pdf" download="alfonzo-resume.pdf"><li>Resume</li>
-            </a>
-          </a>
-          <a href="/portfolio.html">
-            <li>Portfolio</li>
-          </a>
-          <a href="#contacts">
-            <li>Contact</li>
-          </a>
-        </div>
-      </div>
-
-      <section id="aboutme">
-        <div class="aboutme-container">
-          <h1>
-            Hi, I'm Alfonzo. A 17-year-old, aspiring Video/Photo Editor from
-            <span class="school"
-              ><a href="https://mcl.edu.ph/">Malayan Colleges Laguna</a></span
-            >. With an experience of almost 3 years, I am confident to say that
-            I can edit such genres like films, commercials, news reporting type,
-            vlogs, and many more.
-          </h1>
-
-          <div class="achievements">
-            <div class="top">
-              <ul>
-                <li><p>Three 30-minutes Film Edited</p></li>
-                <li><p>Four 15 to 30-minutes Vlogs Edited</p></li>
-              </ul>
-            </div>
-            <div class="bottom">
-              <ul>  
-                <li><p>One Commerical Type Video Edited</p></li>
-                <li><p>Two News Reporting Type Video Edited</p></li>
-              </ul>
-            </div>
-          </div>
-        </div>
-      </section>
-    </div>
-
-    <section id="contacts">
-      <div class="contacts">
-        <div class="side-texts">
-          <h1>Want to Collaborate?</h1>
-      </div>
-
-      <div id="contactForm" class="contact-form">
-        <form id="emailForm">
+      <div class="main-page">
+        <div class="navbar">
+          <div class="links">
             <ul>
-                <li><input id="fromName" type="text" name="from_name" placeholder="Name" /></li>
-                <li><input id="email" type="text" name="reply_to" placeholder="Email" /></li>
-                <li><input id="message" type="text" name="message" placeholder="Message" /></li>
-                <li><button type="submit">SUBMIT</button></li>
+              <li>
+                <h1>Alfonzo Akil</h1>
+              </li>
+              <li><button>Collaborate</button></li>
             </ul>
+          </div>
+        </div>
+
+        <div class="background-image">
+          <div class="bg-image-cover"></div>
+          <img src="/images/background-first-page.png" alt="" />
+        </div>
+
+        <div id="main-content">
+          <ul>
+            <li>
+              <div class="main-content">
+                <div class="bg-main-img-cover">
+                  <img src="/images/pfp.png" alt="" />
+                </div>
+              </div>
+            </li>
+
+            <li>
+              <div class="sub-content">
+                <h3>
+                  HI! I'M <br /><span class="myNameBr">ALFONZO AKIL</span>
+                </h3>
+                <h1>
+                  let’s work together, and <br />make your
+                  <span class="dream">dream</span> video <br />
+                  <span class="cometrue">come true</span>
+                </h1>
+                <p>MADE UP YOUR MIND?</p>
+                <button>LET'S START</button>
+              </div>
+            </li>
+          </ul>
+        </div>
+      </div>
+
+      <div class="my-work">
+        <div class="h1-my-work">
+          <h1>MY WORK</h1>
+        </div>
+
+        <div class="videos">
+          <iframe
+            width="560"
+            height="315"
+            src="https://www.youtube.com/embed/bUiDjDhGwgA?si=_g9hpElUwkUFlE-c"
+            title="YouTube video player"
+            frameborder="0"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+            allowfullscreen
+          ></iframe>
+          <iframe
+            width="560"
+            height="315"
+            src="https://www.youtube.com/embed/4bv4CFhM-9U?si=sulaoKTweLisy3c-"
+            title="YouTube video player"
+            frameborder="0"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+            allowfullscreen
+          ></iframe>
+        </div>
+      </div>
+
+      <div class="aboutme">
+        <img src="/images/aboutme.png" alt="" />
+
+        <div class="aboutme-desc">
+          <div class="name-desc">
+            <h1>I'M <span class="name">ALFONZO AKIL</span></h1>
+            <h3>
+              A 17-year-old, aspiring Video/Photo Editor from MALAyan colleges
+              laguna, With an experience of almost 3 years, I am confident to
+              say that I can edit such genres like films, commercials, news
+              reporting type, vlogs, and many more.
+            </h3>
+          </div>
+
+          <div class="experiences">
+            <div class="exp-bg">
+              <ul>
+                <li>3 YEARS OF EXPERIENCE</li>
+                <li>MORE THAN 20 PROJECTS DID</li>
+                <li>WON THE BEST FILM AWARD ON OUR SCHOOL (2021)</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="quote">
+        <h1>
+          “Clips in your inbox, <br /><span
+            >and I'll create the box office!”</span
+          >
+        </h1>
+      </div>
+
+      <div class="contactme">
+        <div class="bgimage">
+          <img src="/images/contactme.png" alt="" />
+        </div>
+        <form id="emailForm">
+          <div class="form-h1">
+            <h1>Let's Collaborate</h1>
+            <div class="form">
+              <div class="first-row">
+                <input
+                  id="fromName"
+                  type="text"
+                  name="from_name"
+                  placeholder="NAME"
+                />
+                <input
+                  id="message"
+                  type="text"
+                  name="message"
+                  placeholder="Message"
+                />
+              </div>
+              <div class="second-row">
+                <input
+                  id="email"
+                  type="text"
+                  name="reply_to"
+                  placeholder="EMAIL"
+                />
+                <button type="submit">Submit</button>
+              </div>
+            </div>
+          </div>
         </form>
+      </div>
     </div>
-    
-    </section>
   </body>
 </html>
