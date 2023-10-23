@@ -147,8 +147,7 @@ body {
 
 .my-work {
   background-color: #050c16;
-  height: 480vh;
-  height: 437vh;
+  height: 495vh;
   position: relative;
 }
 
@@ -178,7 +177,7 @@ body {
   text-align: center;
   width: 100%;
   position: absolute;
-  top: 36%;
+  top: 77em;
 }
 
 .my-work-photos .events .photos img {
